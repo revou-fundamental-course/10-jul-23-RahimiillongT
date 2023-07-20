@@ -293,3 +293,22 @@ p{
   font-size: 10px;
   width: fit-content;
 }
+
+.back{
+  margin: 10px 5px;
+  color:black;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  transition: background-color 0.2s, color 0.2s;
+  font-weight: 600;
+  width: fit-content;
+  margin-left: 150px;
+  font-size: 1.2em;
+}
+
+.back:hover{
+  background-color: black;
+  color: white;
+}

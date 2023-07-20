@@ -130,6 +130,12 @@ document.querySelector("button").addEventListener("click", (event) => {
     }
   });
 
+//MENAMPILKAN KEMBALI FORM DAN MENYEMBUNYIKAN HASIL
+document.getElementById("back").addEventListener("click", () =>{
+  document.getElementById('home').style.display = 'block';
+  document.getElementById('result').style.display = 'none';
+});
+
 //WARNING DITUTUP SAAT BUTTON DIKLIK
 span.onclick = function(){
     warning.style.display = "none";
